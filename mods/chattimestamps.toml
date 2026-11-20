@@ -1,16 +1,17 @@
 id = "chattimestamps"
 kind = "native-mod"
 name = "Chat Timestamps"
-summary = "Configurable chat timestamps: format, colour and hover detail."
-description = """Stamps every chat message with a configurable time and date, in the colour you pick.
+summary = "Chat timestamps with six preset formats and optional hover."
+description = """Stamps every chat message with a time or date chosen from six built-in presets, with an optional hover stamp.
 
 An unofficial Rust port of [Plague's Chat Timestamps](https://github.com/PlagueTR/ChatTimestamps) by PlagueTR (MIT), rebuilt on Horizon's native mod API. The original's copyright and MIT licence are kept in the package and in [`native/chattimestamps`](https://github.com/Jorungandr/horizon-rust-mods/tree/main/native/chattimestamps).
 
-- Full `SimpleDateFormat`-style pattern strings, with three presets out of the box.
-- Optional hover text with the full date, as in the original.
-- Colour is configurable; the settings page uses Horizon's native settings UI instead of the original's Cloth Config.
+- Six presets: `[HH:mm:ss]`, `[HH:mm]`, a dark-grey bracketed time, date + time, 12-hour time, and off. Arbitrary `SimpleDateFormat` strings are not exposed in this release.
+- Colours are fixed by the chosen preset (grey / dark grey), matching the original's look; there is no custom colour picker.
+- Optional hover applies the selected preset to the original message; it has no separate full-date format.
+- Settings use Horizon's native settings UI instead of the original's Cloth Config.
 
-It is the fuller sibling of **WhenChat**: pick this one when you want formats, colours and hover, or WhenChat for a plain fixed stamp."""
+It is the fuller sibling of **WhenChat**: pick this one when you want preset formats and hover, or WhenChat for a plain fixed stamp."""
 authors = ["PlagueTR", "Jorungandr"]
 owners = ["Jorungandr"]
 owner_ids = [188995885]
@@ -25,5 +26,5 @@ version = "0.2.0"
 published = "2026-11-20"
 game = "26.3"
 file = "chattimestamps-0.2.0.hmod"
-sha256 = "87e9e0505ed64dc6e5c23be24b754f3d571c8b14c1163e548ead509b2ee998ef"
+sha256 = "145be47730cd2106f93f1da39a2a1ebaa6794a08acd956c248bda0458e66869f"
 changelog = "First release."
