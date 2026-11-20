@@ -1,0 +1,28 @@
+id = "itemtooltip"
+kind = "native-mod"
+name = "Item Tooltip+"
+summary = "Adds the item id, durability and stack size to item tooltips."
+description = """Adds a little more to item tooltips: the item id, current durability and max stack size, so you can tell similar items apart at a glance.
+
+An original native mod for Horizon, written for this project (MIT). Source and licence: [`native/itemtooltip`](https://github.com/Jorungandr/horizon-rust-mods/tree/main/native/itemtooltip).
+
+- Item id line, e.g. `minecraft:diamond_pickaxe`.
+- Durability `current / max` for damageable items.
+- Stack size for stackable items.
+- Each line can be toggled in settings."""
+authors = ["Jorungandr"]
+owners = ["Jorungandr"]
+owner_ids = [188995885]
+license = "MIT"
+source = "https://github.com/Jorungandr/horizon-rust-mods/tree/main/native/itemtooltip"
+icon = "icons/itemtooltip.png"
+categories = ["utility"]
+tags = ["tooltip", "items", "durability", "hud"]
+
+[[versions]]
+version = "0.2.0"
+published = "2026-11-20"
+game = "26.3"
+file = "itemtooltip-0.2.0.hmod"
+sha256 = "382c2d773179585a492ef70d1815e5a74329b85a01db209dfefbe45545e260d8"
+changelog = "First release."
