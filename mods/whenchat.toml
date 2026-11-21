@@ -8,7 +8,7 @@ This is an unofficial Rust port of [WhenChat](https://github.com/ErikEdits/WhenC
 
 - The stamp follows your computer's clock on Windows; on other platforms this release displays UTC instead of local time.
 - Nothing is sent anywhere; it only changes how chat is drawn.
-- Settings: enable/disable and whether to stamp your own messages."""
+- It has no settings yet: every chat line gets the stamp, your own messages included. Action-bar (overlay) text is left alone."""
 authors = ["ErikEdits", "Jorungandr"]
 owners = ["Jorungandr"]
 owner_ids = [188995885]
