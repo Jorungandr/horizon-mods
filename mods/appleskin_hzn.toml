@@ -16,7 +16,7 @@ owners = ["Jorungandr"]
 owner_ids = [188995885]
 license = "MIT"
 source = "https://github.com/Jorungandr/horizon-rust-mods/tree/main/native/appleskin"
-icon = "icons/appleskin_horizon.png"
+icon = "icons/appleskin_hzn.png"
 categories = ["food", "utility"]
 tags = ["hud", "food", "saturation", "hunger", "tooltip"]
 
