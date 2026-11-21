@@ -20,9 +20,9 @@ categories = ["utility"]
 tags = ["tooltip", "items", "durability", "hud"]
 
 [[versions]]
-version = "0.2.0"
-published = "2026-11-20"
+version = "0.2.1"
+published = "2026-11-21"
 game = "26.3"
-file = "itemtooltip-0.2.0.hmod"
-sha256 = "ab7e22e400d62d2ba7ff698336a58e5b0117ac139c80f0c32ad87f8f3d332402"
-changelog = "First release."
+file = "itemtooltip-0.2.1.hmod"
+sha256 = "f2b2eed1b862e8c352b21a4ff16999edcd7a366ebc5cf919fcf15fffe356f2a2"
+changelog = "Tooltip lines are now fully opaque: the RGB palette was being passed as RGBA, which hid the item id and stack lines."

@@ -20,9 +20,9 @@ categories = ["utility", "equipment"]
 tags = ["hud", "durability", "equipment", "armour"]
 
 [[versions]]
-version = "0.2.0"
-published = "2026-11-20"
+version = "0.2.1"
+published = "2026-11-21"
 game = "26.3"
-file = "durability-0.2.0.hmod"
-sha256 = "4be1c3a6961d9ecb6b5503b09e8ca66e545c477105f4493d40ccde9647b28042"
-changelog = "First release."
+file = "durability-0.2.1.hmod"
+sha256 = "b70cbea3c1ecb2c31ba4823c4881cf1f93e6ba2fa517306dfa444687e6fb69a7"
+changelog = "Use the game's localised item names (e.g. 铜头盔) instead of hard-coded English labels; regenerate uses.json for the translate handles."
