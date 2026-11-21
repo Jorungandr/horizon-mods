@@ -5,9 +5,13 @@ summary = "Drops the frame rate while the window is in the background, so Horizo
 description = """Alt-tabbing out of Horizon leaves it rendering as fast as it can into a window you cannot see. Dynamic FPS answers the game's own frame-rate hook and lowers the cap while the window is not the one in front.
 
 - In the background: the cap you pick (1, 5, 10, 15, 20 or 30 FPS), 10 by default.
-- Minimised: down to 1 FPS by default.
+- Minimised: 1, 5 or 10 FPS, 1 by default. Horizon itself already caps a minimised window at
+  10 FPS before this mod's hook runs, and the reported cap is clamped to the game's own, so
+  higher values would have no effect and are not offered.
 - A lower cap you set yourself is never raised, and the game is never pushed below one frame, so input, ticks and the network keep running.
 - Settings under Options > Mods > Dynamic FPS.
+
+1 FPS is a power-saving trade-off, not a performance setting: at one frame per second the client cannot keep up with a 20 TPS world. Ticks, chat and the network still run, but the picture updates only once a second until the window is focused again; use 10 FPS if you need the client to stay in step.
 
 This is what Horizon's `framerate_limit` hook documents itself for, and what the game's Battery Mode uses. Nothing is drawn and nothing is sent: it only returns a number.
 
@@ -26,5 +30,5 @@ version = "0.2.0"
 published = "2026-11-20"
 game = "26.3"
 file = "dynamicfps-0.2.0.hmod"
-sha256 = "ff368963a5d743c147051c64cbb2182f50f73aa69a3e398f12eb61c740e94ffc"
+sha256 = "14f2bd0c210fd9903435d86341a213352034e401a6a20d86768a799599d24806"
 changelog = "First release: background and minimised frame-rate caps."
