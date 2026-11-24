@@ -21,6 +21,14 @@ categories = ["food", "utility"]
 tags = ["hud", "food", "saturation", "hunger", "tooltip"]
 
 [[versions]]
+version = "0.2.1"
+published = "2026-11-24"
+game = "26.3"
+file = "appleskin_hzn-0.2.1.hmod"
+sha256 = "06e9507f51f95ea72fb7c1b9455a34ac3a5595a753e5fce8a061e2e223006726"
+changelog = "Treat the food saturation component as final points (no legacy x2 multiplier), switch tooltip labels to English to match the docs, and align licence/artwork notices. Rebuilt package, no new SDK API uses."
+
+[[versions]]
 version = "0.2.0"
 published = "2026-11-20"
 game = "26.3"

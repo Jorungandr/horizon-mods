@@ -20,6 +20,14 @@ categories = ["social", "utility"]
 tags = ["chat", "timestamp", "discord", "port"]
 
 [[versions]]
+version = "0.2.1"
+published = "2026-11-24"
+game = "26.3"
+file = "timeformatter-0.2.1.hmod"
+sha256 = "dbc85ceb65fdca88d582a9eacd9bbdac62dbe2e216f1c14db495914f8870bcc7"
+changelog = "A full <<t:...>> literal escape no longer suppresses every real time tag on the same line; NOTICE author/test count corrected. No new SDK API uses."
+
+[[versions]]
 version = "0.2.0"
 published = "2026-11-20"
 game = "26.3"

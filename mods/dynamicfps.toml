@@ -30,6 +30,14 @@ categories = ["utility"]
 tags = ["fps", "performance", "background", "power", "client"]
 
 [[versions]]
+version = "0.2.2"
+published = "2026-11-24"
+game = "26.3"
+file = "dynamicfps-0.2.2.hmod"
+sha256 = "4333e46f2c2ba8a3884f88a2ad66b52639168e9f5f908ef7a77c2098ef3958a7"
+changelog = "Migrate legacy index 3 to 2 on read so users who picked the old 20 FPS option keep the effective 10 FPS cap instead of silently falling to 1 FPS; align Cargo.toml version. No new SDK API uses."
+
+[[versions]]
 version = "0.2.1"
 published = "2026-11-21"
 game = "26.3"

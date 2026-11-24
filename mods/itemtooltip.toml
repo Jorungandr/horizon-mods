@@ -20,6 +20,14 @@ categories = ["utility"]
 tags = ["tooltip", "items", "durability", "hud"]
 
 [[versions]]
+version = "0.2.2"
+published = "2026-11-24"
+game = "26.3"
+file = "itemtooltip-0.2.2.hmod"
+sha256 = "b1157846f1b898b12f1105f780747d65c7517c1ace2f9da4461b1975439dba1b"
+changelog = "Read the stack's own max-stack-size and max-damage components before the item defaults; English settings labels; regenerate uses.json for the new component handles."
+
+[[versions]]
 version = "0.2.1"
 published = "2026-11-21"
 game = "26.3"

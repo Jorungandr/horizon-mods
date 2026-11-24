@@ -20,6 +20,14 @@ categories = ["utility", "equipment"]
 tags = ["hud", "durability", "equipment", "armour"]
 
 [[versions]]
+version = "0.2.2"
+published = "2026-11-24"
+game = "26.3"
+file = "durability-0.2.2.hmod"
+sha256 = "58095f27278f2a5712302b83f2518d61f8df53b85362077b97397523a7900b25"
+changelog = "Read the stack's own max-damage component before the item default; English slot labels and settings labels; regenerate uses.json for the new component handles."
+
+[[versions]]
 version = "0.2.1"
 published = "2026-11-21"
 game = "26.3"

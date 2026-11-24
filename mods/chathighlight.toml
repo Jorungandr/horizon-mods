@@ -21,6 +21,14 @@ categories = ["social", "utility"]
 tags = ["chat", "highlight", "keywords", "filter"]
 
 [[versions]]
+version = "0.2.1"
+published = "2026-11-24"
+game = "26.3"
+file = "chathighlight-0.2.1.hmod"
+sha256 = "4647fba7403ae681bf9833fd33617f2ce0502955046ba056866b16a648aadea3"
+changelog = "A trailing keyword match no longer tints the following appended chat text; English settings labels. No new SDK API uses."
+
+[[versions]]
 version = "0.2.0"
 published = "2026-11-20"
 game = "26.3"
