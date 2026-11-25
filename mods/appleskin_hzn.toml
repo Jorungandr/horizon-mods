@@ -10,7 +10,7 @@ description = """Vanilla keeps your saturation invisible: you see twenty hunger 
 
 It only reads the numbers the game already has and draws on the HUD. Nothing leaves your computer, and it works on any server because it is entirely client-side.
 
-An independent MIT implementation that follows [AppleSkin](https://github.com/squeek502/AppleSkin) by squeek502 (The Unlicense) without copying its code or artwork; see the NOTICE in the source."""
+An independent MIT implementation of [AppleSkin](https://github.com/squeek502/AppleSkin) by squeek502 (The Unlicense). The four 9x9 saturation overlay sprites in `src/logic.rs` are transcribed from AppleSkin's artwork and credited with the full upstream Unlicense text in `NOTICE.md`."""
 authors = ["Jorungandr"]
 owners = ["Jorungandr"]
 owner_ids = [188995885]
@@ -25,8 +25,8 @@ version = "0.2.1"
 published = "2026-11-24"
 game = "26.3"
 file = "appleskin_hzn-0.2.1.hmod"
-sha256 = "06e9507f51f95ea72fb7c1b9455a34ac3a5595a753e5fce8a061e2e223006726"
-changelog = "Treat the food saturation component as final points (no legacy x2 multiplier), switch tooltip labels to English to match the docs, and align licence/artwork notices. Rebuilt package, no new SDK API uses."
+sha256 = "c38bfd39127527e9cf6117392613b488ad7e53b41372d0018701001f82503057"
+changelog = "Treat the food saturation component as final points (no legacy x2 multiplier), switch tooltip labels to English to match the docs, and credit AppleSkin's saturation sprite artwork with the full upstream Unlicense text in NOTICE.md. Rebuilt package, no new SDK API uses."
 
 [[versions]]
 version = "0.2.0"
